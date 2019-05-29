@@ -1,33 +1,105 @@
-.App {
-  text-align: center;
+.homeSection {
+  background-repeat: no-repeat;
+  background-image: url(http://www.dynamicpress.eu/envato/striped5/wp-content/uploads/revslider/home/home-bg-5.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  visibility: inherit;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.column1 {
+  background-color: rgba(255, 83, 61, 0.85);
+  height: 100vh;
+  margin-left: -60px;
+  transition: none 0s ease 0s;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transform-origin: 50% 50% 0px;
+  opacity: 1;
+  letter-spacing: 0px;
+  white-space: normal;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
   color: white;
+  font-weight: 600;
 }
 
-.App-link {
-  color: #61dafb;
+/* h1:before {
+  display: inline-block;
+  background: #ffffff;
+  position: relative;
+  top: 0.1em;
+  width: 0.9em;
+  height: 0.9em;
+  margin-right: 0.45em;
+  content: "";
+} */
+
+h1 {
+  border-left: 10px solid #fff;
+  padding-left: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buttonHome {
+  border-radius: 25px;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: white;
+}
+
+.buttonHome:hover {
+  color: black;
+  border-color: white;
+  background-color: white;
+}
+
+/* .navbarMenu {
+  background: rgba(255, 255, 255, 0);
+  border: none !important;
+  top: 30px;
+  left: 50px;
+  z-index: 9;
+} */
+
+.paspartu-top {
+  height: 30px;
+  width: 100%;
+  position: fixed;
+  background-color: #ffffff;
+  top: 0;
+  left: 0;
+  z-index: 101;
+}
+
+.paspartu-right {
+  height: 100%;
+  width: 30px;
+  position: fixed;
+  background-color: #ffffff;
+  top: 0;
+  right: 0;
+  z-index: 101;
+}
+
+.paspartu-bottom {
+  height: 30px;
+  width: 100%;
+  position: fixed;
+  background-color: #ffffff;
+  bottom: 0;
+  left: 0;
+  z-index: 101;
+}
+
+.paspartu-left {
+  height: 100%;
+  width: 30px;
+  position: fixed;
+  background-color: #ffffff;
+  top: 0;
+  left: 0;
+  z-index: 101;
 }
