@@ -13,8 +13,8 @@ class Home extends Component {
                 <h1>
                   Builders with a<br /> Different Approach
                 </h1>
-                <Button className="buttonHome btn-lg">
-                  Read more <i className="fas fa-chevron-circle-right" />
+                <Button href="/login" className="buttonHome btn-lg">
+                  Portal login <i className="fas fa-users" />
                 </Button>
               </div>
             </Col>
