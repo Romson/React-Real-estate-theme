@@ -7,7 +7,7 @@ class Home extends Component {
       <section className="homeSection">
         <Container>
           <Row>
-            <Col className="column1">
+            <Col className="column1 w3-animate-left">
               <div className="textDiv">
                 <p>We Are</p>
                 <h1>
