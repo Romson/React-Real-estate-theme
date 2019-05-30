@@ -5,7 +5,7 @@ const emailRegex = RegExp(
   /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
 );
 
-// Take formErrors object and pass into formValid function. Iterate through every value and If(error) {valid is false}.
+// Take formErrors object and pass into formValid function. Iterate through every value and If(error) {valid = false}.
 const formValid = formErrors => {
   let valid = true;
 
