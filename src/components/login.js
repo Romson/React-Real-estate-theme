@@ -90,7 +90,7 @@ class Login extends Component {
     return (
       <div className="wrapperLogin">
         <div className="form-wrapper">
-          <h1 className="loginH1">Portal Login</h1>
+          <h1 className="loginH1">Account Login</h1>
           <form onSubmit={this.handleSubmit} noValidate>
             <div className="firstName">
               <label htmlFor="firstName">First Name </label>

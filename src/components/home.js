@@ -14,7 +14,7 @@ class Home extends Component {
                   Builders with a<br /> Different Approach
                 </h1>
                 <Button href="/register" className="buttonHome btn-lg">
-                  Create portal <i className="fas fa-users" />
+                  Register now <i className="fas fa-users" />
                 </Button>
               </div>
             </Col>
